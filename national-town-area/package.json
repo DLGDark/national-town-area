@@ -1,7 +1,7 @@
 {
   "name": "national-town-area",
-  "version": "1.0.6",
-  "description": "Get the name and code code data of all provinces in the country",
+  "version": "1.0.7",
+  "description": "Get all township information below the target county/district",
   "main": "index.js",
   "directories": {
     "lib": "lib"
