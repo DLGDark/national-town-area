@@ -1,38 +1,24 @@
 {
-  "_from": "national-town-area",
-  "_inBundle": false,
-  "_integrity": "sha512-/1f2i5FHRZveDVfE6CbTq29RKVICDYjjMJs6i810iDy50GIzSrtm3F1/E+SKe3oc3j1Iu7vaYZo2uKUbWgjH6w==",
-  "_location": "/national-town-area",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "national-town-area",
-    "name": "national-town-area",
-    "escapedName": "national-town-area",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/national-town-area/-/national-town-area-1.0.1.tgz",
-  "_shasum": "907ed5498276db65a261b88e5b806b20d64f5690",
-  "_spec": "national-town-area",
-  "_where": "C:\\Users\\Administrator\\Desktop\\aaa",
-  "author": "dlg",
-  "bundleDependencies": false,
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "iconv-lite": "^0.4.24"
-  },
-  "deprecated": false,
-  "description": "Inquire about national township area data information",
-  "devDependencies": {},
+  "name": "national-town-area",
+  "version": "1.0.6",
+  "description": "**调用方法名：**\r  - TownshipArea(Promise异步调用，内部代码已将执行结果以JSON格式写入文件，并返回)",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dlg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DLGDark/national-town-area.git"
   },
   "keywords": [
     "national",
@@ -41,17 +27,6 @@
     "township",
     "county"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "national-town-area",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.4",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DLGDark/national-town-area.git"
-  },
   "bugs": {
     "url": "https://github.com/DLGDark/national-town-area/issues"
   },
