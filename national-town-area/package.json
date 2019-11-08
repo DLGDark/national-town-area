@@ -1,7 +1,7 @@
 {
   "name": "national-town-area",
   "version": "1.0.6",
-  "description": "**调用方法名：**\r  - TownshipArea(Promise异步调用，内部代码已将执行结果以JSON格式写入文件，并返回)",
+  "description": "Get the name and code code data of all provinces in the country",
   "main": "index.js",
   "directories": {
     "lib": "lib"
